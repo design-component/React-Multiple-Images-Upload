@@ -1,2 +1,4 @@
-export const SOLID_VALUE = 'SOLID_VALUE';
-export const SELECT_VALUE = 'SELECT_VALUE';
+export const SOLID_VALUE = 'solidValue';
+export const SELECT_IMAGE = 'selectImage';
+export const SELECT_MULTI_IMAGE = 'selectMultiImage';
+export const DELETE_MULTI_IMAGE = 'deleteMultiImage';

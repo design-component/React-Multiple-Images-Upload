@@ -4,7 +4,7 @@ import { SOLID_VALUE } from '../../product/LOGIC/actionType';
 function InputText({ label, name, id, dispatch }) {
 	return (
 		<>
-			<label for={id} className="form-label">
+			<label htmlFor={id} className="form-label">
 				{label}
 			</label>
 			<input

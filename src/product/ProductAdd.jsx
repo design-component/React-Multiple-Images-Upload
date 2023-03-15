@@ -9,10 +9,10 @@ import { reducer } from './LOGIC/reducer';
 
 export default function ProductAdd() {
 	const [state, dispatch] = useReducer(reducer, initialState);
-	console.log(state);
+	// console.log(state);
 	const formHandler = (e) => {
 		e.preventDefault();
-		console.log(e);
+		console.log(state);
 	};
 	return (
 		<div className="wrapper">
@@ -25,10 +25,10 @@ export default function ProductAdd() {
 							<div className="col-12">
 								<div className="card card-default">
 									<Title />
-
+									{JSON.stringify(state)}
 									<div className="card-body">
 										<div className="row ec-vendor-uploads">
-											<ImagePreview />
+											<ImagePreview dispatch={dispatch} state={state} />
 											<InputFieldsBox
 												dispatch={dispatch}
 												formHandler={formHandler}
