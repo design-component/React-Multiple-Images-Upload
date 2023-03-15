@@ -7,7 +7,7 @@ function Heading() {
 				<h1>Add Product</h1>
 				<p className="breadcrumbs">
 					<span>
-						<a>Home</a>
+						<a href="/">Home</a>
 					</span>
 					<span>
 						<i className="mdi mdi-chevron-right"></i>
@@ -16,7 +16,9 @@ function Heading() {
 				</p>
 			</div>
 			<div>
-				<a className="btn btn-primary">View All</a>
+				<a href="/" className="btn btn-primary">
+					View All
+				</a>
 			</div>
 		</div>
 	);

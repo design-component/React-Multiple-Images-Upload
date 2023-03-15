@@ -6,7 +6,10 @@ function Footer() {
 			<div className="copyright bg-white">
 				<p>
 					Copyright &copy; <span id="ec-year"></span>
-					<a className="text-primary">Admin Dashboard</a>. All Rights Reserved.
+					<a href="/" className="text-primary">
+						Admin Dashboard
+					</a>
+					. All Rights Reserved.
 				</p>
 			</div>
 		</footer>
