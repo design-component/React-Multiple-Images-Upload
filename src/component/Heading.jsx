@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Heading() {
 	return (
@@ -8,7 +7,7 @@ function Heading() {
 				<h1>Add Product</h1>
 				<p className="breadcrumbs">
 					<span>
-						<Link to={'/'}>Home</Link>
+						<a>Home</a>
 					</span>
 					<span>
 						<i className="mdi mdi-chevron-right"></i>
@@ -17,9 +16,7 @@ function Heading() {
 				</p>
 			</div>
 			<div>
-				<Link to={'/'} className="btn btn-primary">
-					View All
-				</Link>
+				<a className="btn btn-primary">View All</a>
 			</div>
 		</div>
 	);

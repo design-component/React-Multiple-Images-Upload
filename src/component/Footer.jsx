@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
@@ -7,10 +6,7 @@ function Footer() {
 			<div className="copyright bg-white">
 				<p>
 					Copyright &copy; <span id="ec-year"></span>
-					<Link className="text-primary" to={'/'}>
-						Admin Dashboard
-					</Link>
-					. All Rights Reserved.
+					<a className="text-primary">Admin Dashboard</a>. All Rights Reserved.
 				</p>
 			</div>
 		</footer>
